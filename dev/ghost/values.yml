@@ -1,0 +1,25 @@
+ghost:
+  username: ric
+  password: P@ssw0rd1
+  email: me@ricjanus.com
+  blogTitle: "Hello World"
+
+mariadb:
+  auth:
+    rootPassword: rootpassword
+    database: bitnami_ghost
+    username: bn_ghost
+    password: ghostpassword
+
+ingress:
+  enabled: true
+  hostname: ghost.local
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  tls: false
+
+persistence:
+  enabled: true
+  storageClass: ""
+  accessMode: ReadWriteOnce
+  size: 8Gi
