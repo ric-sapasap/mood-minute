@@ -1,5 +1,9 @@
 version: '3'
 
+includes:
+  dev:
+    taskfile: ./dev/Taskfile.yml
+
 tasks:
   default:
     cmd: echo "hello $(whoami)"

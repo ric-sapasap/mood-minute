@@ -1,0 +1,9 @@
+version: '3'
+
+includes:
+  ghost:
+    taskfile: ./ghost/Taskfile.yml
+
+tasks:
+  default:
+    cmd: echo "hello dev $(whoami)"
