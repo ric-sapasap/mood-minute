@@ -3,4 +3,4 @@
 
 **DEV SETUP**
 
-[DEV_SETUP.md](docs%2FDEV_SETUP.md)
+[DEV_SETUP.md](public%2Fdocs%2FDEV_SETUP.md)
