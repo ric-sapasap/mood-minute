@@ -4,28 +4,41 @@ from fastapi import FastAPI, HTTPException
 from markdown import markdown
 from enum import Enum
 
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, JSONResponse
+from mnemonic import Mnemonic
 
 app = FastAPI()
 
 
-class SubFolder(str, Enum):
+class SubPath(str, Enum):
     BLOG = "blog"
+    API = "api"
 
 
 response_mapping = {
-    SubFolder.BLOG: HTMLResponse
+    SubPath.BLOG: HTMLResponse,
+    SubPath.API: JSONResponse
 }
 
 
-@app.get("/{subfolder}/{path:path}")
-async def root(subfolder: SubFolder, path: Path):
-    file_path = Path(subfolder.value) / path
+@app.get("/blog/{path:path}")
+async def blog(path: Path):
+    file_path = Path("blog") / path
 
     if not file_path.exists():
         raise HTTPException(status_code=404)
 
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
-        response_type = response_mapping[subfolder]
-        return response_type(markdown(content))
+        return HTMLResponse(markdown(content))
+
+
+@app.get("/api/mnemonic/generate")
+async def generate_mnemonic():
+    mnemo = Mnemonic("english")
+    words = mnemo.generate(strength=256)
+    return JSONResponse(
+        {
+            "identity.json": words.split()
+        }
+    )

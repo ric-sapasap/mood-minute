@@ -1,0 +1,43 @@
+{
+  "mobile_numbers": {
+    "ph": "+639988586414",
+    "nl": "+31684456886"
+  },
+  "emails": [
+    "rjosapasap@gmail.com",
+    "me@ricjanus.com"
+  ],
+  "mnemonics": [
+    {
+      "the first one": [
+        "actor",
+        "rabbit",
+        "round",
+        "gym",
+        "smoke",
+        "valid",
+        "staff",
+        "enrich",
+        "kick",
+        "skull",
+        "solution",
+        "fish",
+        "worry",
+        "orange",
+        "raccoon",
+        "expand",
+        "rude",
+        "hammer",
+        "various",
+        "liar",
+        "bacon",
+        "ozone",
+        "medal",
+        "tent"
+      ]
+    }
+  ],
+  "pub_keys": {
+    "geant mac laptop": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHY17Vrkr04jgLzUTa76PkZ2kJKwOERYuPLjwPDtG9eV ric.sapasap@GA0454-RSAPASAP.local"
+  }
+}
