@@ -72,5 +72,6 @@ everything. I just have to execute it.
     - `1->n` - subscription
     - `n` - group chats (if isolated can act as "solo" -> echo chambers)
 - `EXCEPTIONS TO RULES`
+  - and also, there are no rules (From mobile!)
   - There is always an exception, even this rule.
   - `Cause you are, the only exception~`
