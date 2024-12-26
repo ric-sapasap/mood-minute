@@ -75,3 +75,5 @@ everything. I just have to execute it.
   - and also, there are no rules (From mobile!)
   - There is always an exception, even this rule.
   - `Cause you are, the only exception~`
+
+everything is subject to interpretation 
