@@ -1,0 +1,6 @@
+creation_rules:
+  - path_regex: IDENTITY\.yaml$
+    encrypted_regex: '^(private)$'
+    key_groups:
+      - pgp:
+          - A0B1A250858300247768655DD89217E85EB21F0E

@@ -1,0 +1,55 @@
+public:
+    mobile_numbers:
+        ph: "+639988586414"
+        nl: "+31684456886"
+    emails:
+        - rjosapasap@gmail.com
+        - me@ricjanus.com
+    pub_keys:
+        geant_mac_laptop: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHY17Vrkr04jgLzUTa76PkZ2kJKwOERYuPLjwPDtG9eV ric.sapasap@GA0454-RSAPASAP.local
+        pgp: |-
+            -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+            mDMEZ3ElGxYJKwYBBAHaRw8BAQdArnl4sjVSKJw5gn63KH0Dt3iTG7A2M85kfyyD
+            MXPT3kK0PFJpYyBKYW51cyBTYXBhc2FwIChyaWMtc2FwYXNhcEBnaXRodWIuY29t
+            KSA8bWVAcmljamFudXMuY29tPoiZBBMWCgBBFiEEoLGiUIWDACR3aGVd2JIX6F6y
+            Hw4FAmdxJRsCGwMFCQDtTgAFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ
+            2JIX6F6yHw7eiwEAvySazwDy4ybCtf8GcNPiT4PXEjmnsvKa7U39+iY/Oa0A/jpz
+            rFCcGCu7t4kL7Gm7fqiHv8Wnbi+aOtgrvgNw2PsIuDgEZ3ElGxIKKwYBBAGXVQEF
+            AQEHQFeWbpK+MFgFv9MdGVqJ0EBLlXDCILIq0aJAnCbCw0NlAwEIB4h+BBgWCgAm
+            FiEEoLGiUIWDACR3aGVd2JIX6F6yHw4FAmdxJRsCGwwFCQDtTgAACgkQ2JIX6F6y
+            Hw7KowD+N6WgkuljaUQiGlCRqPk2oMvTjUBSuG9u+AR9T/1EFagA/0vq1nEbBRUv
+            s4q81H9N8yJ7KlW+YeNAXJMs66CW/2sF
+            =y/tb
+            -----END PGP PUBLIC KEY BLOCK-----
+private:
+    identities:
+        lakad matatag: ENC[AES256_GCM,data:67rq3n2Tp4kSAkmcVDk=,iv:zBI9jpyeNU0q/hC6/tc/5uYKRE82RlHmxetfEXAD3CI=,tag:+XUhZjFGb2H3jYSP37EGOQ==,type:str]
+        billie jean: ENC[AES256_GCM,data:rZl3Nf6Afc7dwRXm,iv:1gIw9l1juv7SiI66RleNJeOwfB+pBfHAJGBSCXnt2mw=,tag:ccqk25s9pmFEFnZDYSsctA==,type:str]
+        broadband internet: ENC[AES256_GCM,data:LzggeWYoEp4R,iv:u0K5P6FSZPZ7L9XNxP5Rab7ZG+fGqkcRsOqTBq3wsKU=,tag:QFf3X54I09Z1g6EAUyc8zg==,type:str]
+        its a me: ENC[AES256_GCM,data:Bw==,iv:nnQ8dGj7oTm3XEn8Le3wtVU/a6TBDyWomCl34lt1dCo=,tag:/I/2hZg8rf7py2qCzvNY6w==,type:str]
+    mnemonics:
+        2nd: ENC[AES256_GCM,data:8VQd8gevcZYLHcFMekbc2YqKfzjV6XrF+IGIuHpb/G3YkoAF8ImjWDIXlJNtY21K+oxnj7cWMIbF/EqHnGD3yM/YSODSOSqwOISxlqC3EOnhaGLMMyzvXfAwYyx4nXPY+0q4LfCDYlNfIj0R1SEg/KLtwOyuW2MQuQr9IE3ulAy3NSR5/tZ8pXBw6fQLmJbW+3tAGE5ohgcF0cMXhstAbuw=,iv:gdNXveJfNiyAMdj2xRxqNXRpgIexND9zOCo4NylV4hw=,tag:nZ5oYYZ9uFDogZM/WBiKiw==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-12-29T11:40:31Z"
+    mac: ENC[AES256_GCM,data:OO7ClMiFDNB8rQfxFKzwRlat8WEgJPCjJNViDhH9BTKbuwLRinq30lWjSWBJNmsd6Noik0/y9swT6UgBJ1SpFXLl51HJax1NrhBtR4Z+6XKoRiUz5MYmMaMUD9oKpcvKWVVYO3IKD9NPjngU/gr6Tav/phZZ5HIBv4WtmFXyslU=,iv:44EmCw8ZMc1EM44IuY9uopVe6syfp1M9PjnDsKScubE=,tag:Igr+ReqEjto73USIFINk6A==,type:str]
+    pgp:
+        - created_at: "2024-12-29T11:40:31Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hF4DU7CliMGjCo4SAQdAB/ZhhbxxmSvyVDLgNxhrvCsbsJSi0wpv/rZEt/NybwMw
+            YA9mhvALwW1JGZWhSJR6Wnr1dsrdznn1/VqKNALIOqn5Hy4FKsRnzApgmvq09g82
+            1GgBCQIQxOGaV7JeBB3Q/ot3Q7+wkWUiRYNzQq4/W3mnE/XCMV+egpyNoJPxL/Cx
+            ue228yn8+ozIZilDFpbfN+mqlKOnYrnM3pCUmX9sr5QgGIVjfpQW5How7AT5nLYG
+            73FyMGHWL4ulRg==
+            =wCeb
+            -----END PGP MESSAGE-----
+          fp: A0B1A250858300247768655DD89217E85EB21F0E
+    encrypted_regex: ^(private)$
+    version: 3.9.2
