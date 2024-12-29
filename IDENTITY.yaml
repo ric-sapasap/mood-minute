@@ -6,7 +6,8 @@ public:
         - rjosapasap@gmail.com
         - me@ricjanus.com
     pub_keys:
-        geant_mac_laptop: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHY17Vrkr04jgLzUTa76PkZ2kJKwOERYuPLjwPDtG9eV ric.sapasap@GA0454-RSAPASAP.local
+        ssh:
+            geant_mac_laptop: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHY17Vrkr04jgLzUTa76PkZ2kJKwOERYuPLjwPDtG9eV ric.sapasap@GA0454-RSAPASAP.local
         pgp: |-
             -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -24,31 +25,31 @@ public:
             -----END PGP PUBLIC KEY BLOCK-----
 private:
     identities:
-        lakad matatag: ENC[AES256_GCM,data:67rq3n2Tp4kSAkmcVDk=,iv:zBI9jpyeNU0q/hC6/tc/5uYKRE82RlHmxetfEXAD3CI=,tag:+XUhZjFGb2H3jYSP37EGOQ==,type:str]
-        billie jean: ENC[AES256_GCM,data:rZl3Nf6Afc7dwRXm,iv:1gIw9l1juv7SiI66RleNJeOwfB+pBfHAJGBSCXnt2mw=,tag:ccqk25s9pmFEFnZDYSsctA==,type:str]
-        broadband internet: ENC[AES256_GCM,data:LzggeWYoEp4R,iv:u0K5P6FSZPZ7L9XNxP5Rab7ZG+fGqkcRsOqTBq3wsKU=,tag:QFf3X54I09Z1g6EAUyc8zg==,type:str]
-        its a me: ENC[AES256_GCM,data:Bw==,iv:nnQ8dGj7oTm3XEn8Le3wtVU/a6TBDyWomCl34lt1dCo=,tag:/I/2hZg8rf7py2qCzvNY6w==,type:str]
+        lakad matatag: ENC[AES256_GCM,data:8fI+3lKa4ujRDr5yQPw=,iv:QQm+p2tYXykLPpCnHOxE8rnlXGUHR1dEI+AvCGfY0RA=,tag:8sdbsNOddupsYXVTrfFhlA==,type:str]
+        billie jean: ENC[AES256_GCM,data:H0jB6/m+de/0Zxvh,iv:hE6l2GAsNyDpHEa6NKFqsSQW9H9nhW0EaZyhxG+Flxw=,tag:Ub2Xrkq4LyoER4ZPSMa2Dw==,type:str]
+        broadband internet: ENC[AES256_GCM,data:gByIYFqDFzBo,iv:GNxQ5B7rzGm5xDRxruCoOZzmEUgjqshTLQxFM/Rr3HU=,tag:AOdZTYWPzdybenGFZx/CcA==,type:str]
+        its a me: ENC[AES256_GCM,data:/g==,iv:AFKqwO0b8wrq5pI08KTRWLc4m1xE2JTZqsEcH2q5mKs=,tag:ayOl7rZnOpgh0TdvF7+l9g==,type:str]
     mnemonics:
-        2nd: ENC[AES256_GCM,data:8VQd8gevcZYLHcFMekbc2YqKfzjV6XrF+IGIuHpb/G3YkoAF8ImjWDIXlJNtY21K+oxnj7cWMIbF/EqHnGD3yM/YSODSOSqwOISxlqC3EOnhaGLMMyzvXfAwYyx4nXPY+0q4LfCDYlNfIj0R1SEg/KLtwOyuW2MQuQr9IE3ulAy3NSR5/tZ8pXBw6fQLmJbW+3tAGE5ohgcF0cMXhstAbuw=,iv:gdNXveJfNiyAMdj2xRxqNXRpgIexND9zOCo4NylV4hw=,tag:nZ5oYYZ9uFDogZM/WBiKiw==,type:str]
+        2nd: ENC[AES256_GCM,data:yh3bTcbwi1SEQqnQzJuetMEEKYrfxuJwMvmQpZDNRnDvlV67EWKHsrT4KNTIbaEFpWrv3NuUa0TeEhOr3ysyfXqxDQ8SZ31Lssm43mmP1TTZ8nIwi57Ua3t+u222nN6fY2f8BDY3OcNBktEkr2PKG8DtnVinNSBjdaEKqb0/iNDzeXC/Bwat7aZk0M5vcDze7SyBggnHBziZ47L/C5BzGFA=,iv:6NDHuOVYtjt6lX/7D7UKQZ+f6l+850ZhirUJbvcIUAk=,tag:GbnX7r9g+4N4Q4WrzqZldQ==,type:str]
 sops:
     kms: []
     gcp_kms: []
     azure_kv: []
     hc_vault: []
     age: []
-    lastmodified: "2024-12-29T11:40:31Z"
-    mac: ENC[AES256_GCM,data:OO7ClMiFDNB8rQfxFKzwRlat8WEgJPCjJNViDhH9BTKbuwLRinq30lWjSWBJNmsd6Noik0/y9swT6UgBJ1SpFXLl51HJax1NrhBtR4Z+6XKoRiUz5MYmMaMUD9oKpcvKWVVYO3IKD9NPjngU/gr6Tav/phZZ5HIBv4WtmFXyslU=,iv:44EmCw8ZMc1EM44IuY9uopVe6syfp1M9PjnDsKScubE=,tag:Igr+ReqEjto73USIFINk6A==,type:str]
+    lastmodified: "2024-12-29T11:42:30Z"
+    mac: ENC[AES256_GCM,data:htF4m11fvT/3B+156+Sap5zCI5M5FJtnBvXCsWEicy2EJ50OMuSCG5FBsfgVGt0iW/45anu1s/3ZZxx3JhaKnz2L6eX1xhIdKFhEVujWYhMKRYj3YewRryJW5H92btJkyWh1bWbaCYOKj4bwv4dt7coz03Nor/9RFu3DtBhEgec=,iv:ycUc65rrrnTlHS2m4s+NvT4qwh0T4xIWaGS6jK2FG0s=,tag:NJ+91x4aU2xoonFToIMRVQ==,type:str]
     pgp:
-        - created_at: "2024-12-29T11:40:31Z"
+        - created_at: "2024-12-29T11:42:29Z"
           enc: |-
             -----BEGIN PGP MESSAGE-----
 
-            hF4DU7CliMGjCo4SAQdAB/ZhhbxxmSvyVDLgNxhrvCsbsJSi0wpv/rZEt/NybwMw
-            YA9mhvALwW1JGZWhSJR6Wnr1dsrdznn1/VqKNALIOqn5Hy4FKsRnzApgmvq09g82
-            1GgBCQIQxOGaV7JeBB3Q/ot3Q7+wkWUiRYNzQq4/W3mnE/XCMV+egpyNoJPxL/Cx
-            ue228yn8+ozIZilDFpbfN+mqlKOnYrnM3pCUmX9sr5QgGIVjfpQW5How7AT5nLYG
-            73FyMGHWL4ulRg==
-            =wCeb
+            hF4DU7CliMGjCo4SAQdABjpdczgvQDQY0HJ9nX/FdBQiF6Pm2467ATRdofXscTYw
+            0qbq393KTPuGeaMV65866e3k0VgL+ySRuFyzlYy2hXj5o9CBQAtWGTw3/92yv8Tj
+            1GYBCQIQM4ddu0DWin0voSC0zMqsvzW5jstjRZ/yPxqXuK2BSFgd3+q38NOP7cQy
+            gsCxv/m4Y+fIYI9tIpBaT2cakYbhi51NhVibRF+al0FwkIi4K/UZ8sLWodY3U3My
+            tEBWz7nSjfs=
+            =8v1R
             -----END PGP MESSAGE-----
           fp: A0B1A250858300247768655DD89217E85EB21F0E
     encrypted_regex: ^(private)$
