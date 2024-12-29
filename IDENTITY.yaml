@@ -8,48 +8,49 @@ public:
     pub_keys:
         ssh:
             geant_mac_laptop: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHY17Vrkr04jgLzUTa76PkZ2kJKwOERYuPLjwPDtG9eV ric.sapasap@GA0454-RSAPASAP.local
-        pgp: |-
-            -----BEGIN PGP PUBLIC KEY BLOCK-----
+        pgp:
+            yubikey_a: |-
+                -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-            mDMEZ3ElGxYJKwYBBAHaRw8BAQdArnl4sjVSKJw5gn63KH0Dt3iTG7A2M85kfyyD
-            MXPT3kK0PFJpYyBKYW51cyBTYXBhc2FwIChyaWMtc2FwYXNhcEBnaXRodWIuY29t
-            KSA8bWVAcmljamFudXMuY29tPoiZBBMWCgBBFiEEoLGiUIWDACR3aGVd2JIX6F6y
-            Hw4FAmdxJRsCGwMFCQDtTgAFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ
-            2JIX6F6yHw7eiwEAvySazwDy4ybCtf8GcNPiT4PXEjmnsvKa7U39+iY/Oa0A/jpz
-            rFCcGCu7t4kL7Gm7fqiHv8Wnbi+aOtgrvgNw2PsIuDgEZ3ElGxIKKwYBBAGXVQEF
-            AQEHQFeWbpK+MFgFv9MdGVqJ0EBLlXDCILIq0aJAnCbCw0NlAwEIB4h+BBgWCgAm
-            FiEEoLGiUIWDACR3aGVd2JIX6F6yHw4FAmdxJRsCGwwFCQDtTgAACgkQ2JIX6F6y
-            Hw7KowD+N6WgkuljaUQiGlCRqPk2oMvTjUBSuG9u+AR9T/1EFagA/0vq1nEbBRUv
-            s4q81H9N8yJ7KlW+YeNAXJMs66CW/2sF
-            =y/tb
-            -----END PGP PUBLIC KEY BLOCK-----
+                mDMEZ3ElGxYJKwYBBAHaRw8BAQdArnl4sjVSKJw5gn63KH0Dt3iTG7A2M85kfyyD
+                MXPT3kK0PFJpYyBKYW51cyBTYXBhc2FwIChyaWMtc2FwYXNhcEBnaXRodWIuY29t
+                KSA8bWVAcmljamFudXMuY29tPoiZBBMWCgBBFiEEoLGiUIWDACR3aGVd2JIX6F6y
+                Hw4FAmdxJRsCGwMFCQDtTgAFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQ
+                2JIX6F6yHw7eiwEAvySazwDy4ybCtf8GcNPiT4PXEjmnsvKa7U39+iY/Oa0A/jpz
+                rFCcGCu7t4kL7Gm7fqiHv8Wnbi+aOtgrvgNw2PsIuDgEZ3ElGxIKKwYBBAGXVQEF
+                AQEHQFeWbpK+MFgFv9MdGVqJ0EBLlXDCILIq0aJAnCbCw0NlAwEIB4h+BBgWCgAm
+                FiEEoLGiUIWDACR3aGVd2JIX6F6yHw4FAmdxJRsCGwwFCQDtTgAACgkQ2JIX6F6y
+                Hw7KowD+N6WgkuljaUQiGlCRqPk2oMvTjUBSuG9u+AR9T/1EFagA/0vq1nEbBRUv
+                s4q81H9N8yJ7KlW+YeNAXJMs66CW/2sF
+                =y/tb
+                -----END PGP PUBLIC KEY BLOCK-----
 private:
     identities:
-        lakad matatag: ENC[AES256_GCM,data:8fI+3lKa4ujRDr5yQPw=,iv:QQm+p2tYXykLPpCnHOxE8rnlXGUHR1dEI+AvCGfY0RA=,tag:8sdbsNOddupsYXVTrfFhlA==,type:str]
-        billie jean: ENC[AES256_GCM,data:H0jB6/m+de/0Zxvh,iv:hE6l2GAsNyDpHEa6NKFqsSQW9H9nhW0EaZyhxG+Flxw=,tag:Ub2Xrkq4LyoER4ZPSMa2Dw==,type:str]
-        broadband internet: ENC[AES256_GCM,data:gByIYFqDFzBo,iv:GNxQ5B7rzGm5xDRxruCoOZzmEUgjqshTLQxFM/Rr3HU=,tag:AOdZTYWPzdybenGFZx/CcA==,type:str]
-        its a me: ENC[AES256_GCM,data:/g==,iv:AFKqwO0b8wrq5pI08KTRWLc4m1xE2JTZqsEcH2q5mKs=,tag:ayOl7rZnOpgh0TdvF7+l9g==,type:str]
+        lakad matatag: ENC[AES256_GCM,data:6x1elU4+ubWBK13q9+U=,iv:Jk0Y3/tYO1gMsRCb2Z7Xc2/fZhasJwALzPwR2CwpHag=,tag:moIVcTAZyzM7MMWpjNP08g==,type:str]
+        billie jean: ENC[AES256_GCM,data:V+2nflkMC2Ro/c6p,iv:yiYw5yQdZ2fSGzPe3+TRZRcNYs10gLqQ/67z/D81G/Q=,tag:dlxxmyAFRnX6d1b2kGwbNQ==,type:str]
+        broadband internet: ENC[AES256_GCM,data:CR/PWZZpPFvV,iv:SPd6zEHaj94hw0G0IB76BmwH5M0gP31isP6SlnYvJt8=,tag:cSppJzCEwOx6VlZkMM+J1A==,type:str]
+        its a me: ENC[AES256_GCM,data:EA==,iv:goevnvjisSAqYOHMLztdk4+VLckU4JX+KP2f1xqqg0U=,tag:rvcJ1FW8ac9gtPhn/Ihavg==,type:str]
     mnemonics:
-        2nd: ENC[AES256_GCM,data:yh3bTcbwi1SEQqnQzJuetMEEKYrfxuJwMvmQpZDNRnDvlV67EWKHsrT4KNTIbaEFpWrv3NuUa0TeEhOr3ysyfXqxDQ8SZ31Lssm43mmP1TTZ8nIwi57Ua3t+u222nN6fY2f8BDY3OcNBktEkr2PKG8DtnVinNSBjdaEKqb0/iNDzeXC/Bwat7aZk0M5vcDze7SyBggnHBziZ47L/C5BzGFA=,iv:6NDHuOVYtjt6lX/7D7UKQZ+f6l+850ZhirUJbvcIUAk=,tag:GbnX7r9g+4N4Q4WrzqZldQ==,type:str]
+        2nd: ENC[AES256_GCM,data:jzhlNboHdKVDknRHRgM7hKAV6/PkHPU9kaB/1OIYY6P9/CrT7YeikcEAoWsN5PZJU1PAmVCwfXt5cmUdmFCZxtjyvOYe+I0k1sHPNIwZkyj7USmZ8PzZWIviMyaQbKU9Fw7OsG3/50c9IWFA8lRn5WIZChAcwNBuyw13M3Pjoy+sAT+NFo6sZ0P7vzfPdhizm9n55Br9rGzM+ZXQxBYX8mA=,iv:lDMioSLGW4XkeVa4Kys5D0YhMpxSXTnSputwk6rDGLI=,tag:wNmiap3Kr87QVy3DoSrpsw==,type:str]
 sops:
     kms: []
     gcp_kms: []
     azure_kv: []
     hc_vault: []
     age: []
-    lastmodified: "2024-12-29T11:42:30Z"
-    mac: ENC[AES256_GCM,data:htF4m11fvT/3B+156+Sap5zCI5M5FJtnBvXCsWEicy2EJ50OMuSCG5FBsfgVGt0iW/45anu1s/3ZZxx3JhaKnz2L6eX1xhIdKFhEVujWYhMKRYj3YewRryJW5H92btJkyWh1bWbaCYOKj4bwv4dt7coz03Nor/9RFu3DtBhEgec=,iv:ycUc65rrrnTlHS2m4s+NvT4qwh0T4xIWaGS6jK2FG0s=,tag:NJ+91x4aU2xoonFToIMRVQ==,type:str]
+    lastmodified: "2024-12-29T11:43:13Z"
+    mac: ENC[AES256_GCM,data:qkRHItgxL4XHeHmIuDr2mqHuKxMW9v/ivd2yhxN09MQVKUlaF0kaD8tlWRRjJiEdW4agzqSZBXmioXFQoDhQyU3m0uO0tXXgoMBX+8gSC+cczfsLjyq/2lHVbCNAR5rGpghBmBGsQTK2BCrm+IjmFU4kjSO1G3qt5ntan7aIkq4=,iv://8zws4M103f6vw7pvRYWFVl7JVmLparc7QRv3N+9Zc=,tag:/zRKd52C55TvO1mN+1MDMA==,type:str]
     pgp:
-        - created_at: "2024-12-29T11:42:29Z"
+        - created_at: "2024-12-29T11:43:13Z"
           enc: |-
             -----BEGIN PGP MESSAGE-----
 
-            hF4DU7CliMGjCo4SAQdABjpdczgvQDQY0HJ9nX/FdBQiF6Pm2467ATRdofXscTYw
-            0qbq393KTPuGeaMV65866e3k0VgL+ySRuFyzlYy2hXj5o9CBQAtWGTw3/92yv8Tj
-            1GYBCQIQM4ddu0DWin0voSC0zMqsvzW5jstjRZ/yPxqXuK2BSFgd3+q38NOP7cQy
-            gsCxv/m4Y+fIYI9tIpBaT2cakYbhi51NhVibRF+al0FwkIi4K/UZ8sLWodY3U3My
-            tEBWz7nSjfs=
-            =8v1R
+            hF4DU7CliMGjCo4SAQdAoeIs1B2QP+pyMMB7eNhDX/bY9cru7ovXtGRXwTlb9ykw
+            g6wC36K/ogVfihU1065esZdMY9Jiv22IT99EGr4u5IaoD8qdppQwQKlgm1pxVqXY
+            1GgBCQIQAM2f19TwsOuWha5x5o6D7UiToRi0ulCStK0OrZcnbfvk2RCdPh6P0/VN
+            ghEjA2hg+RtaLTc4lczNNQhR6jT1ufteC5pKxBg0cNlCNEVrlal26LJeWC1Unpyo
+            Hrmp+CkqydOgjQ==
+            =FC5Z
             -----END PGP MESSAGE-----
           fp: A0B1A250858300247768655DD89217E85EB21F0E
     encrypted_regex: ^(private)$
